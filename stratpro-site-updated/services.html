@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Services — Stratpro HVACR & Building Solutions</title>
+  <meta name="description" content="HVACR services spanning residential, light commercial, applied chillers, traded products, project contracting, aftermarket, and energy retrofit — by Stratpro Bengaluru.">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+</head>
+<body>
+<header class="site-header" id="siteHeader">
+  <div class="container">
+    <a href="index.html" class="logo"><img src="assets/logo-navy.png" alt="Stratpro"></a>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html" class="active">Services</a>
+      <a href="teams.html">Teams</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="header-cta">
+      <a href="tel:+919886587801" class="call-link">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        +91 98865 87801
+      </a>
+      <a href="contact.html" class="btn btn-primary">Get a Quote</a>
+    </div>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    </button>
+  </div>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="services.html" class="active">Services</a>
+    <a href="teams.html">Teams</a>
+    <a href="contact.html">Contact</a>
+    <div class="mobile-call">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+      +91 98865 87801
+    </div>
+    <a href="contact.html" class="btn btn-primary btn-block">Get a Quote</a>
+  </div>
+</header>
+
+<main>
+<section class="page-banner services-banner">
+  <div class="bg"><img src="assets/ductwork-fitout.jpg" alt="HVAC ductwork installation"></div>
+  <div class="overlay"></div>
+  <div class="content">
+    <h1>Our Services</h1>
+    <p>Comprehensive HVACR solutions spanning design, supply, execution, and lifecycle support.</p>
+  </div>
+</section>
+
+<section class="section-sm">
+  <div class="container">
+    <div class="services-layout">
+      <aside class="sidebar">
+        <div class="sidebar-inner" id="tabSidebar">
+          <button class="active" data-tab="residential">
+            <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></span>
+            Residential
+          </button>
+          <button data-tab="light-commercial">
+            <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18M5 21V7l8-4v18M19 21V11l-6-4"/></svg></span>
+            Light Commercial
+          </button>
+          <button data-tab="commercial-applied">
+            <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 20h20M4 20V8l8-5 8 5v12M9 20v-6h6v6"/></svg></span>
+            Commercial Applied
+          </button>
+          <button data-tab="traded">
+            <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 1 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 1 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 1 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 1 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg></span>
+            Traded Products
+          </button>
+          <button data-tab="projects">
+            <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg></span>
+            Projects
+          </button>
+          <button data-tab="aftermarket">
+            <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></span>
+            Aftermarket Support
+          </button>
+          <button data-tab="energy">
+            <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg></span>
+            Energy & Retrofit
+          </button>
+        </div>
+      </aside>
+
+      <div style="flex:1; min-width:0;">
+
+        <!-- RESIDENTIAL -->
+        <div class="tab-panel active" data-panel="residential">
+          <div class="tab-intro">
+            <h2>Quiet, consistent comfort for the home.</h2>
+            <p>High-performance systems designed to blend seamlessly into your living spaces while dramatically reducing energy consumption.</p>
+          </div>
+          <div class="cards-2" style="gap:1.5rem;">
+            <div class="card" style="padding:2rem;">
+              <h3 style="border-bottom:1px solid var(--border); padding-bottom:1rem; margin-bottom:1.5rem;">Air Conditioning</h3>
+              <ul style="list-style:none; display:flex; flex-direction:column; gap:0.75rem;">
+                <li style="display:flex; align-items:center; gap:0.75rem;"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#A6CE38" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> Hi-Wall Split ACs</li>
+                <li style="display:flex; align-items:center; gap:0.75rem;"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#A6CE38" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> Cassette AC Systems</li>
+                <li style="display:flex; align-items:center; gap:0.75rem;"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#A6CE38" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> Ducted Split Systems</li>
+                <li style="display:flex; align-items:center; gap:0.75rem;"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#A6CE38" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> Mini VRF Systems</li>
+                <li style="display:flex; align-items:center; gap:0.75rem;"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#A6CE38" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> Window & Inverter ACs</li>
+              </ul>
+            </div>
+            <div class="card" style="padding:2rem;">
+              <h3 style="border-bottom:1px solid var(--border); padding-bottom:1rem; margin-bottom:1.5rem;">Air Purification</h3>
+              <ul style="list-style:none; display:flex; flex-direction:column; gap:0.75rem;">
+                <li style="display:flex; align-items:center; gap:0.75rem;"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#A6CE38" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> Klarwind Air Purifiers (HEPA 13)</li>
+                <li style="display:flex; align-items:center; gap:0.75rem;"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#A6CE38" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> Air One Purifier with PM2.5 Display</li>
+                <li style="display:flex; align-items:center; gap:0.75rem;"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#A6CE38" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> Remote Monitoring & App Control</li>
+              </ul>
+              <div class="chips-row" style="margin-top:1.5rem; padding-top:1rem;">
+                <span class="callout">HEPA 13 Filtration</span>
+                <span class="callout">0.3 Micron Capture</span>
+                <span class="callout">99.97% Efficient</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- LIGHT COMMERCIAL -->
+        <div class="tab-panel" data-panel="light-commercial">
+          <div class="tab-intro">
+            <h2>Reliable, low-noise systems for small and mid-size spaces.</h2>
+            <p>Tailored for retail, small offices, and restaurants — delivering powerful cooling with precise zoning capabilities.</p>
+          </div>
+          <div class="cards-3-col">
+            <div class="product-tile"><span class="ico-wrap"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18M5 21V7l8-4v18M19 21V11l-6-4"/></svg></span><span>Cassette R410A</span></div>
+            <div class="product-tile"><span class="ico-wrap"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18M5 21V7l8-4v18M19 21V11l-6-4"/></svg></span><span>Packaged Units</span></div>
+            <div class="product-tile"><span class="ico-wrap"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18M5 21V7l8-4v18M19 21V11l-6-4"/></svg></span><span>Floor Standing Units</span></div>
+            <div class="product-tile"><span class="ico-wrap"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18M5 21V7l8-4v18M19 21V11l-6-4"/></svg></span><span>NXG Ducted Systems</span></div>
+            <div class="product-tile"><span class="ico-wrap"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18M5 21V7l8-4v18M19 21V11l-6-4"/></svg></span><span>X Power Mini VRF</span></div>
+            <div class="product-tile"><span class="ico-wrap"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18M5 21V7l8-4v18M19 21V11l-6-4"/></svg></span><span>X Power VX & VX-i Series</span></div>
+            <div class="product-tile"><span class="ico-wrap"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18M5 21V7l8-4v18M19 21V11l-6-4"/></svg></span><span>Toshiba Outdoor & Indoor Units</span></div>
+            <div class="product-tile"><span class="ico-wrap"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18M5 21V7l8-4v18M19 21V11l-6-4"/></svg></span><span>Toshiba VRF Controls</span></div>
+          </div>
+        </div>
+
+        <!-- COMMERCIAL APPLIED -->
+        <div class="tab-panel" data-panel="commercial-applied">
+          <div class="tab-intro">
+            <h2>Chillers and airside equipment for large buildings.</h2>
+            <p>Industrial-scale thermal management spanning 10 to 5,500 tons. We supply the backbone of enterprise facility cooling.</p>
+          </div>
+          <div class="cards-2" style="gap:1.5rem;">
+            <div class="product-card">
+              <div class="head bg-primary"><h3>Chillers</h3></div>
+              <div class="body">
+                <ul>
+                  <li><svg class="check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> AquaEdge 23XRV</li>
+                  <li><svg class="check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> AquaForce 30XW/XW-P</li>
+                  <li><svg class="check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> AquaForce 30XW-V</li>
+                  <li><svg class="check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> AquaEdge 19MV</li>
+                  <li><svg class="check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> AquaEdge 19DV</li>
+                  <li><svg class="check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> AquaEdge 19XR/XRV/XRE</li>
+                  <li><svg class="check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> AquaForce 30KA/30KAV</li>
+                  <li><svg class="check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> AquaSnap 30RB/RQ</li>
+                  <li><svg class="check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> 30RAM/RHM Modular</li>
+                </ul>
+              </div>
+            </div>
+            <div class="product-card">
+              <div class="head bg-ink"><h3>Airside Equipment</h3></div>
+              <div class="body">
+                <ul>
+                  <li><svg class="check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> Fan Coil Units</li>
+                  <li><svg class="check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> Air Handlers (39TF/39TC)</li>
+                  <li><svg class="check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> Air Terminal Units</li>
+                  <li><svg class="check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> 40LW Fan Coils</li>
+                  <li><svg class="check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> OptiClean Air Scrubber</li>
+                  <li><svg class="check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> 39TD/39CQM Handlers</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- TRADED -->
+        <div class="tab-panel" data-panel="traded">
+          <div class="tab-intro">
+            <h2>Traded Products & Genuine Spares.</h2>
+            <p>Access to critical infrastructure components and the world's largest HVACR parts network.</p>
+          </div>
+          <div class="cards-2 mb-12" style="gap:1.5rem;">
+            <div class="feature-card-lg">
+              <div class="icon-wrap"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 1 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 1 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 1 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 1 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg></div>
+              <div><h3>Pumps</h3><p>High-efficiency water pumps for chilled water and condenser water applications, ensuring reliable primary and secondary circulation.</p></div>
+            </div>
+            <div class="feature-card-lg">
+              <div class="icon-wrap"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 20h20M4 20V8l8-5 8 5v12M9 20v-6h6v6"/></svg></div>
+              <div><h3>Industrial Fans</h3><p>Heavy-duty ventilation solutions for exhaust, fresh air intake, and smoke extraction in commercial and industrial settings.</p></div>
+            </div>
+          </div>
+          <div class="spotlight">
+            <h3>Totaline Reseller</h3>
+            <p>One-stop-shop for genuine HVACR parts. Stratpro provides access to the world's largest HVACR supplies organization with over 120,000 parts and ~700 stores worldwide. We are also your source for genuine Carlyle compressors.</p>
+            <div class="badges"><span>120K+ Parts</span><span>Carlyle Compressors</span></div>
+          </div>
+        </div>
+
+        <!-- PROJECTS -->
+        <div class="tab-panel" data-panel="projects">
+          <div class="tab-intro">
+            <h2>World-class HVAC solutions, delivered on time.</h2>
+            <p>Turnkey contracting for complex thermal environments. From design to commissioning, we execute with precision.</p>
+          </div>
+          <div style="display:grid; grid-template-columns:1fr; gap:1.5rem;" class="projects-grid-wrap">
+            <div class="card" style="grid-column: 1 / -1;">
+              <h3 style="border-bottom:1px solid var(--border); padding-bottom:1rem; margin-bottom:1.5rem;">Specialized Applications</h3>
+              <div style="display:grid; grid-template-columns:1fr; gap:0.75rem 2rem;">
+                <div class="projects-row">
+                  <div class="check-line"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#A6CE38" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> <span>Central Chilled Water Plant Systems</span></div>
+                  <div class="check-line"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#A6CE38" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> <span>DX System & VRF Systems</span></div>
+                  <div class="check-line"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#A6CE38" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> <span>Primary/Secondary Pumping</span></div>
+                  <div class="check-line"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#A6CE38" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> <span>Thermal Storage</span></div>
+                  <div class="check-line"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#A6CE38" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> <span>Hot Water Generation</span></div>
+                  <div class="check-line"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#A6CE38" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> <span>Ventilation Systems</span></div>
+                  <div class="check-line"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#A6CE38" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> <span>Evaporative Cooling</span></div>
+                  <div class="check-line"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#A6CE38" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> <span>Cleanroom Technology</span></div>
+                  <div class="check-line"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#A6CE38" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> <span>NABH-Compliant Operation Theatres</span></div>
+                  <div class="check-line"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#A6CE38" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> <span>District Cooling</span></div>
+                  <div class="check-line"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#A6CE38" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> <span>Heat Recovery & Desiccant Cooling</span></div>
+                </div>
+              </div>
+            </div>
+            <div class="ink-block feature-img" style="min-height:280px; display:flex; flex-direction:column;">
+              <h3>Tenant Fit-Outs</h3>
+              <p>Customized interior HVAC deployment for retail chains, corporate offices, and hospitality venues, executed alongside interior contractors without delaying timelines.</p>
+              <img src="assets/ductwork-fitout.jpg" alt="Fit out">
+            </div>
+          </div>
+        </div>
+
+        <!-- AFTERMARKET -->
+        <div class="tab-panel" data-panel="aftermarket">
+          <div class="tab-intro">
+            <h2>Rapid response, backed by certified technicians.</h2>
+            <p>Protecting your capital investment through proactive maintenance, analytics, and rapid breakdown response.</p>
+          </div>
+          <div class="cards-3-col">
+            <div class="feat-card"><h3>Installation & Commissioning</h3><p>Factory-grade startup procedures to ensure baseline efficiency.</p></div>
+            <div class="feat-card"><h3>Annual Maintenance Contracts</h3><p>Comprehensive AMC packages tailored to facility usage patterns.</p></div>
+            <div class="feat-card"><h3>Indoor Air Quality Testing</h3><p>Detailed PM2.5, VOC, and airflow assessments.</p></div>
+            <div class="feat-card"><h3>Commercial Duct Cleaning</h3><p>Robotic and manual sanitization of complex duct networks.</p></div>
+            <div class="feat-card"><h3>Eddy Current Testing</h3><p>Non-destructive chiller tube inspection to prevent failures.</p></div>
+            <div class="feat-card"><h3>Condenser Descaling</h3><p>Chemical and mechanical removal of scale to restore heat transfer.</p></div>
+          </div>
+          <div class="muted-callout mt-12">
+            <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></span>
+            <div>
+              <h4>BluEdge Platform</h4>
+              <p>BluEdge is Carrier's service and aftermarket platform, delivering real-time machine health notifications and analytics for connected HVAC assets.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- ENERGY -->
+        <div class="tab-panel" data-panel="energy">
+          <div class="tab-intro">
+            <h2>Component-by-component energy audits.</h2>
+            <p>Upgrading legacy infrastructure to modern efficiency standards without the cost of full system replacement.</p>
+          </div>
+          <div class="cards-2 mb-12" style="gap:1.5rem;">
+            <div class="card">
+              <h3 style="border-bottom:1px solid var(--border); padding-bottom:1rem; margin-bottom:1.5rem;">HVAC Retrofit</h3>
+              <ul class="check-list">
+                <li><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#A6CE38" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg><div><strong>Deep Retrofits</strong><span>Total modernization of plant rooms.</span></div></li>
+                <li><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#A6CE38" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg><div><strong>VFD Installation</strong><span>Adding variable frequency drives to pumps and towers.</span></div></li>
+                <li><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#A6CE38" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg><div><strong>Automatic Tube Cleaning</strong><span>Continuous optimization of chiller condenser tubes.</span></div></li>
+              </ul>
+            </div>
+            <div class="card">
+              <h3 style="border-bottom:1px solid var(--border); padding-bottom:1rem; margin-bottom:1.5rem;">Energy Retrofit</h3>
+              <ul class="check-list">
+                <li><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#A6CE38" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg><div><strong>Controls Upgrades</strong><span>Implementing smart BMS systems and zoning.</span></div></li>
+                <li><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#A6CE38" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg><div><strong>VFD/Motor Controls</strong><span>Upgrading inefficient constant-speed motors.</span></div></li>
+                <li><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#A6CE38" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg><div><strong>Remote Monitoring</strong><span>Cloud-based tracking of power consumption.</span></div></li>
+              </ul>
+            </div>
+          </div>
+          <div class="chips-row mb-12">
+            <span class="callout">Savings on capital</span>
+            <span class="callout">Optimization of existing plant</span>
+            <span class="callout">Adaptation for new products</span>
+          </div>
+          <div class="ink-block">
+            <h4>Guaranteed Energy Savings Performance Contracts (GESPC)</h4>
+            <p>Together with Carrier, we support GESPCs — helping companies optimize plant performance while sharing in the measured savings. Zero upfront capital required in qualifying projects.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section border-top" style="background:#fff;">
+  <div class="container">
+    <div class="cta-band" style="padding:0; max-width:760px; margin:0 auto;">
+      <h2>Need a custom solution?</h2>
+      <p>Every building is unique. Contact our engineering team for a customized assessment and system design.</p>
+      <div class="actions">
+        <a href="contact.html" class="btn btn-primary btn-lg">Contact the Team</a>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-col"><img src="assets/logo-white.png" alt="Stratpro"><p>HVACR & Building Solutions Pvt Ltd — an authorized Carrier Midea India and Toshiba Carrier channel partner, delivering sustainable comfort systems since 2020.</p></div>
+      <div class="footer-col"><h4>Company</h4><ul><li><a href="about.html">About Us</a></li><li><a href="about.html">Core Values</a></li><li><a href="about.html">Partners</a></li><li><a href="teams.html">Our Team</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+      <div class="footer-col"><h4>Services</h4><ul><li><a href="services.html">Residential</a></li><li><a href="services.html">Commercial</a></li><li><a href="services.html">Projects</a></li><li><a href="services.html">Aftermarket Support</a></li></ul></div>
+      <div class="footer-col"><h4>Contact</h4><ul>
+        <li><div class="contact-row"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg><span>61/A, 6th Main Rd, Metro Lay Out, Nayanda Halli, Bengaluru, Karnataka 560026</span></div></li>
+        <li><div class="contact-row"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg><a href="tel:+919886167801">+91 98861 67801</a></div></li>
+        <li><div class="contact-row"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg><a href="mailto:info@stratprosolutions.com">info@stratprosolutions.com</a></div></li>
+      </ul></div>
+    </div>
+    <div class="footer-bottom"><p>© 2026 Stratpro HVACR & Building Solutions Pvt Ltd. All rights reserved.</p><p>CIN: U31909KA2020PTC131933</p></div>
+  </div>
+</footer>
+<script src="js/main.js"></script>
+</body>
+</html>

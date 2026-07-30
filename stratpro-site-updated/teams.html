@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Team — Stratpro</title>
+  <meta name="description" content="Stratpro is built on expertise — engineers, technicians, and specialists who take pride in every installation and service call. Meet our departments and culture.">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <style>
+    .check-list { list-style: none; display: flex; flex-direction: column; gap: 1rem; }
+    .check-list li { display: flex; align-items: flex-start; gap: 0.75rem; }
+    .check-list li strong { display: block; color: var(--fg); margin-bottom: 0.15rem; }
+    .check-list li span { font-size: 0.92rem; color: var(--muted-fg); }
+    .check-line { display: flex; align-items: flex-start; gap: 0.75rem; }
+    .check-line span { font-size: 0.92rem; font-weight: 500; color: var(--fg); }
+    .projects-row { display: grid; grid-template-columns: 1fr; gap: 0.75rem 1.5rem; }
+    @media (min-width: 640px) { .projects-row { grid-template-columns: 1fr 1fr; } }
+    @media (min-width: 1024px) { .projects-grid-wrap { grid-template-columns: 2fr 1fr !important; } }
+  </style>
+</head>
+<body>
+<header class="site-header" id="siteHeader">
+  <div class="container">
+    <a href="index.html" class="logo"><img src="assets/logo-navy.png" alt="Stratpro"></a>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="teams.html" class="active">Teams</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="header-cta">
+      <a href="tel:+919886587801" class="call-link">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        +91 98865 87801
+      </a>
+      <a href="contact.html" class="btn btn-primary">Get a Quote</a>
+    </div>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    </button>
+  </div>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="services.html">Services</a>
+    <a href="teams.html" class="active">Teams</a>
+    <a href="contact.html">Contact</a>
+    <div class="mobile-call">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+      +91 98865 87801
+    </div>
+    <a href="contact.html" class="btn btn-primary btn-block">Get a Quote</a>
+  </div>
+</header>
+
+<main>
+<section class="page-banner alt-banner" style="background-image:url('assets/skyline-banner.jpg'); background-size:cover; background-position:center;">
+  <div class="overlay"></div>
+  <div class="content">
+    <span class="overline">Our People</span>
+    <h1>The team behind every system we build.</h1>
+    <p>Stratpro is built on expertise — engineers, technicians, and specialists who take pride in every installation, every audit, and every service call.</p>
+  </div>
+</section>
+
+<section class="acc-strip">
+  <div class="container">
+    <div class="acc-strip-inner">
+      <div>Factory-Trained Technicians</div>
+      <div>Carrier-Certified Professionals</div>
+      <div>EHS-Committed Teams</div>
+      <div>Customer-First Culture</div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div style="max-width:760px;">
+      <span class="overline" style="margin-bottom:1rem; color:var(--primary);">Who We Are</span>
+      <h2>An enterprise formed by HVACR professionals.</h2>
+      <p style="font-size:1.075rem; margin-bottom:1rem;">Stratpro was founded by professionals with deep roots in HVACR engineering and building solutions. Every person on our team shares a single commitment — delivering systems that perform, protect, and last.</p>
+      <p style="font-size:1.075rem;">From the engineer sizing a chiller plant to the technician arriving for a service call, we hold ourselves to the same standards that earned us our partnerships.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section bg-muted">
+  <div class="container">
+    <div class="mb-12">
+      <span class="overline" style="color:var(--primary);">Our Functions</span>
+      <h2>Specialists across every part of the HVACR lifecycle.</h2>
+    </div>
+    <div class="dept-grid">
+      <div class="dept-cell">
+        <div class="icon">
+          <svg viewBox="0 0 32 32" fill="none"><rect x="4" y="12" width="24" height="14" rx="2" stroke="#A6CE38" stroke-width="2"/><path d="M9 12V8a2 2 0 012-2h10a2 2 0 012 2v4" stroke="#004C88" stroke-width="2"/><path d="M16 17v4M13 19h6" stroke="#A6CE38" stroke-width="1.8" stroke-linecap="round"/></svg>
+        </div>
+        <h3>Engineering & Projects</h3>
+        <p>Our project engineers design and commission HVACR systems across residential, light commercial, and large applied installations — ensuring every system meets energy and performance benchmarks.</p>
+      </div>
+      <div class="dept-cell">
+        <div class="icon">
+          <svg viewBox="0 0 32 32" fill="none"><circle cx="16" cy="16" r="11" stroke="#004C88" stroke-width="2"/><path d="M12 16a4 4 0 108 0" stroke="#A6CE38" stroke-width="2" stroke-linecap="round"/><path d="M16 10v2M16 20v2M10 16H8M24 16h-2" stroke="#A6CE38" stroke-width="1.6" stroke-linecap="round"/></svg>
+        </div>
+        <h3>Aftermarket & Service</h3>
+        <p>Factory-trained technicians arriving in uniform with proper identification — handling installations, commissioning, AMCs, IAQ testing, and rapid response breakdowns.</p>
+      </div>
+      <div class="dept-cell">
+        <div class="icon">
+          <svg viewBox="0 0 32 32" fill="none"><path d="M6 24l6-8 5 5 4-6 5 4" stroke="#A6CE38" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><rect x="4" y="6" width="24" height="20" rx="2" stroke="#004C88" stroke-width="2"/></svg>
+        </div>
+        <h3>Sales & Business Development</h3>
+        <p>Our sales team works closely with homeowners, architects, consultants, and facility managers to recommend the right HVACR solution — with no pressure and no upsell.</p>
+      </div>
+      <div class="dept-cell">
+        <div class="icon">
+          <svg viewBox="0 0 32 32" fill="none"><path d="M18 4l-8 14h8l-6 10" stroke="#A6CE38" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="24" cy="10" r="4" stroke="#004C88" stroke-width="2"/></svg>
+        </div>
+        <h3>Energy & Retrofit</h3>
+        <p>Specialists in HVAC energy audits and ECM identification — applying regression models and deep system analysis to deliver measurable energy and cost savings.</p>
+      </div>
+      <div class="dept-cell">
+        <div class="icon">
+          <svg viewBox="0 0 32 32" fill="none"><rect x="4" y="8" width="16" height="14" rx="2" stroke="#004C88" stroke-width="2"/><path d="M20 12h4l4 4v6h-8V12z" stroke="#A6CE38" stroke-width="2" stroke-linejoin="round"/><circle cx="9" cy="24" r="2" stroke="#004C88" stroke-width="2"/><circle cx="23" cy="24" r="2" stroke="#A6CE38" stroke-width="2"/></svg>
+        </div>
+        <h3>Supply Chain & Parts</h3>
+        <p>Managing access to 120,000+ genuine Totaline spare parts — from Carlyle compressors to full commercial chiller components — with fast turnaround for every service call.</p>
+      </div>
+      <div class="dept-cell">
+        <div class="icon">
+          <svg viewBox="0 0 32 32" fill="none"><rect x="4" y="6" width="24" height="20" rx="2" stroke="#004C88" stroke-width="2"/><path d="M4 12h24" stroke="#A6CE38" stroke-width="2"/><path d="M10 18h4M18 18h4M10 22h4" stroke="#004C88" stroke-width="1.6" stroke-linecap="round"/></svg>
+        </div>
+        <h3>Finance & Administration</h3>
+        <p>Supporting every function with tight cost control, compliance, and the operational backbone that keeps projects on time and within budget.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="bg-ink section-lg">
+  <div class="container">
+    <div class="culture-grid">
+      <div>
+        <span class="overline" style="color:var(--accent);">Our Culture</span>
+        <h2 style="color:#fff;">Safety first. Always. On every site.</h2>
+        <p>Stratpro is committed to the highest standards of environment, health, and safety — in line with world-class best practices across our work sites and offices. Our people show up in uniform, with proper identification, on every job.</p>
+        <p>We hold ourselves to the ethics guidelines embedded in our Carrier partnership — Quality, Trust, Integrity, and Respect are not aspirations; they're operational standards.</p>
+      </div>
+      <div class="image">
+        <img src="assets/aftermarket-worker.jpg" alt="Stratpro team at work">
+        <div class="grad"></div>
+        <span class="pill">Safety first, on every site</span>
+      </div>
+    </div>
+
+    <div class="divider-light">
+      <div class="stats-grid dark">
+        <div class="stat"><span class="num">20+</span><span class="label">Years Combined HVACR Experience</span></div>
+        <div class="stat"><span class="num">15+</span><span class="label">Factory-Trained Technicians</span></div>
+        <div class="stat"><span class="num">5+</span><span class="label">Specialist Departments</span></div>
+        <div class="stat"><span class="num">Zero Compromise</span><span class="label">On Safety</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section text-center" style="background:#fff;">
+  <div class="container" style="max-width:600px;">
+    <h2>Want to work with us?</h2>
+    <p>We're always looking for HVACR professionals who share our commitment to quality, safety, and sustainable solutions.</p>
+    <a href="mailto:info@stratprosolutions.com" class="btn btn-accent btn-lg" style="margin-top:1rem;">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+      Reach Out to Us
+    </a>
+  </div>
+</section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-col"><img src="assets/logo-white.png" alt="Stratpro"><p>HVACR & Building Solutions Pvt Ltd — an authorized Carrier Midea India and Toshiba Carrier channel partner, delivering sustainable comfort systems since 2020.</p></div>
+      <div class="footer-col"><h4>Company</h4><ul><li><a href="about.html">About Us</a></li><li><a href="about.html">Core Values</a></li><li><a href="about.html">Partners</a></li><li><a href="teams.html">Our Team</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+      <div class="footer-col"><h4>Services</h4><ul><li><a href="services.html">Residential</a></li><li><a href="services.html">Commercial</a></li><li><a href="services.html">Projects</a></li><li><a href="services.html">Aftermarket Support</a></li></ul></div>
+      <div class="footer-col"><h4>Contact</h4><ul>
+        <li><div class="contact-row"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg><span>61/A, 6th Main Rd, Metro Lay Out, Nayanda Halli, Bengaluru, Karnataka 560026</span></div></li>
+        <li><div class="contact-row"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg><a href="tel:+919886167801">+91 98861 67801</a></div></li>
+        <li><div class="contact-row"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg><a href="mailto:info@stratprosolutions.com">info@stratprosolutions.com</a></div></li>
+      </ul></div>
+    </div>
+    <div class="footer-bottom"><p>© 2026 Stratpro HVACR & Building Solutions Pvt Ltd. All rights reserved.</p><p>CIN: U31909KA2020PTC131933</p></div>
+  </div>
+</footer>
+<script src="js/main.js"></script>
+</body>
+</html>
